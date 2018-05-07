@@ -42,10 +42,10 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <h3>联系我们</h3>
         <ul>
             {% if site.contact.phone %}<li><strong>手机:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+           <!-- {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}-->
             {% if site.contact.email %}<li><strong>邮箱:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
@@ -55,15 +55,15 @@ layout: default
         <table>
             <tbody>
                 <tr>
-                    <td>Monday – Friday</td>
+                    <td>周一 – 周五</td>
                     <td>{{ site.monday_friday }}</td>
                 </tr>
                 <tr>
-                    <td>Saturday</td>
+                    <td>周六</td>
                     <td>{{ site.saturday }}</td>
                 </tr>
                 <tr>
-                    <td>Sunday</td>
+                    <td>周日</td>
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
@@ -71,7 +71,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>门店地址</h3>
             <p>
                 {{ site.contact.address }}
             </p>
@@ -133,7 +133,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">治疗</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -152,7 +152,7 @@ layout: default
 
 <!-- Start Our team -->
 <div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
+    <h2 class="section-title">团队</h2>
     <div id="team-carousel">
     {% for member in site.data.team %}
         <div class="expandable-box">
