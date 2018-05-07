@@ -1,6 +1,6 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: 深圳翌芙莱化妆品有限公司咸宁总代店
+description: "深圳翌芙莱化妆品有限公司咸宁总代店"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2018 DentistSmile - All rights reserved
+copyright: © 2018 深圳翌芙莱化妆品有限公司 - All rights reserved
 
 # Build settings
 markdown: kramdown
