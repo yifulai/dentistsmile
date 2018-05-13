@@ -12,7 +12,7 @@ hero:
     hero_description: 一个专业解决问题性皮肤的品牌专家
 
 # Contact form
-api_token: # Enter API token here
+api_token: f70aa1a89c8c9bdcc4144bcb1d8c50e1
 
 # Contact info
 contact:
