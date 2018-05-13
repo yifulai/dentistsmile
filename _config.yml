@@ -3,7 +3,7 @@ title: 深圳翌芙莱化妆品有限公司咸宁总代店
 description: "深圳翌芙莱化妆品有限公司咸宁总代店"
 baseurl: "https://yifulai.github.io/" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logo.png
 
 # Hero
 hero: 
